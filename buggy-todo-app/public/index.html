@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buggy Todo App (For AI Testing)</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fa-solid fa-list-check"></i> My Tasks</h1>
+            <p>Can your Local AI fix all the bugs in this app?</p>
+        </header>
+
+        <main>
+            <form id="todo-form">
+                <input type="text" id="todo-input" placeholder="Add a new task...">
+                <button type="submit" id="add-btn"><i class="fa-solid fa-plus"></i> Add</button>
+            </form>
+
+            <ul id="todo-list" class="todo-list">
+            </ul>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
